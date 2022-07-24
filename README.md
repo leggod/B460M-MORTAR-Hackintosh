@@ -7,8 +7,11 @@
 - 支持核显硬件加速
 - 支持板载声卡
 - 支持板载网卡
-- 支持Intel无线网卡及
+- 支持Intel无线网卡
 - 炫酷的MSI dragon 主题
+
+### EFI下载
+[链接](https://github.com/leggod/Hackintosh-B460M-MORTAR/releases)
 
 ### 硬件配置
 
