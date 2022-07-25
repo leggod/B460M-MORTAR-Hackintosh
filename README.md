@@ -10,8 +10,8 @@
 - 支持Intel无线网卡
 - 炫酷的MSI dragon 主题
 
-### EFI下载
-[链接](https://github.com/leggod/Hackintosh-B460M-MORTAR/releases)
+### EFI下载与使用
+[链接](https://github.com/leggod/Hackintosh-B460M-MORTAR/releases)，替换EFI-Boot 下的文件，和EFI下添加OC文件夹
 
 ### 硬件配置
 
@@ -20,7 +20,7 @@
 | 系统 | macos12.5和win11|
 | CPU  | I5-10400 |
 | 主板  | B460M 迫击炮 |
-| 显卡 | 5500xt免驱|
+| 显卡 | Rx5500xt免驱|
 | SSD | 西数sn720 和 美光p5|
 | 无线网卡| intel ax201 支持WiFi6|
 
@@ -30,7 +30,7 @@
 
 ### 显卡支持
 - 支持仅有CPU核显的UHD630显卡
-- 支持AMD独显 RX 470/480/570/570X/580/580X/590 系列显卡
+- 支持AMD独显 RX 470/480/570/570X/580/580X/590 系列显卡(需使用config_default.plist)
 - 支持AMD独显 RX 5500/5600/5700 系列显卡(需使用config.plist)
 > PS: 使用独显的需在BIOS里强制打开CPU核显（高级 -> 内建显示配置 -> 集成显卡多显示器(IGD Multi-monitor) -> 允许），否则核显硬件解码失效，只使用核显的可以忽略
 
@@ -107,3 +107,10 @@ Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsU
 
 ### 设置默认启动项
 * 在启动选择界面，先选中要启动的项，然后按键盘的 Ctrl + Enter (回车键) 进入系统，下次重启后默认就选中该项了
+
+### 其他问题
+- 安装
+    - 推荐使用黑果小兵的clover 或者 oc 安装
+- efi问题
+    - 理论支持所有10代CPU，如果无法使用，可以尝试删除`NVRAM`-`Add`-`7C436110-AB2A-4BBB-A880-FE41995C9F82`-`boot-args` 里面的参数
+    - RX 5000 和 6000 系列，已经要`boot-args`中添加 `agdpmod=pikera`，否则黑屏
