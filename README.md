@@ -22,7 +22,7 @@
 | 系统 | macos12.5和win11|
 | CPU  | I5-10400 |
 | 主板  | B460M 迫击炮 |
-| 显卡 | Rx5500xt免驱|
+| 显卡 | XFX RX5500xt免驱|
 | SSD | 西数sn720 和 美光p5|
 | 无线网卡| intel ax201 支持WiFi6|
 
