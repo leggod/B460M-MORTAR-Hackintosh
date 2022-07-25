@@ -3,12 +3,14 @@
 
 ### 功能（完善度99%）
 - 支持睡眠/唤醒
-- 支持所有USB端口
-- 支持核显硬件加速
-- 支持板载声卡
-- 支持板载网卡
-- 支持Intel无线网卡
+- 所有USB端口
+- 核显硬件加速
+- 板载声卡
+- 板载网卡
+- Intel无线网卡
 - 炫酷的MSI dragon 主题
+- 一键重置nvram (空格）
+- 双系统记忆启动（ctrl+回车)
 
 ### EFI下载与使用
 [链接](https://github.com/leggod/Hackintosh-B460M-MORTAR/releases)，替换EFI-Boot 下的文件，和EFI下添加OC文件夹
