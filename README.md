@@ -13,7 +13,7 @@
 - 双系统记忆启动（ctrl+回车)
 
 ### EFI下载与使用
-[链接](https://github.com/leggod/Hackintosh-B460M-MORTAR/releases)，替换`EFI`-`Boot` 下的文件，和`EFI`下添加`OC`文件夹
+[下载链接](https://github.com/leggod/Hackintosh-B460M-MORTAR/releases)，替换`EFI`-`Boot` 下的文件，和`EFI`下添加`OC`文件夹
 
 ### 硬件配置
 ![](./image/1.png)
