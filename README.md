@@ -1,5 +1,5 @@
 # Hackintosh-B460M-MORTAR
-最适合微星迫击炮B460m的EFI，没有之一。各项补丁、驱动、配置精心调教，深度优化。因为自用，长期更新。
+最适合微星迫击炮B460m的EFI，没有之一。各项补丁、驱动、配置精心调教，深度优化。因为自用，长期更新。<br>
 欢迎新老朋友上车，使用愉快，enjoy~
 
 ### 功能（完善度99%）
@@ -19,8 +19,8 @@
 
 ### 硬件配置
 ![image](./image/img1.png)
-![image](./image/img2.png)
-![image](./image/image.png)
+<br>![image](./image/img2.png)
+<br>![image](./image/image.png)
 |  配置   | 型号  |
 |  ----  | ----  |
 | 系统 | macos12.5和win11|
@@ -31,8 +31,7 @@
 | 无线网卡| intel ax201 支持WiFi6|
 
 ### CPU支持
-- 理论支持所有10代核显为UHD630的CPU
-- 无核显带F的10代CPU，有以下免驱独显也可以（但无法使用核显加速）
+- 理论支持所有10代CPU
 
 ### 显卡支持
 - 支持仅有CPU核显的UHD630显卡
