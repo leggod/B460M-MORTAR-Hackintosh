@@ -58,12 +58,7 @@
 (本EFI请使用config_install.plist配置文件，即删除原config.plist后重命名config_install.plist为config.plist即可)
 
 * 系统安装成功后，替换为本EFI默认的config.plist文件即可
-* 若使用4K显示器，请将 "UIScale" 的值修改为 "Ag==" 以获得最佳ui体验
 
-```
-<key>UIScale</key>
-<data>Ag==</data>
-```
 
 ### 板载网卡设置
 * 系统偏好设置 -> 网络 -> 以太网（高级） -> 硬件 -> 配置:手动, 速度:100baseTX(千兆网络环境可选择1000baseT), 双工:全双工, MTU:标准1500
