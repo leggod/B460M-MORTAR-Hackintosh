@@ -65,7 +65,7 @@
 
 ### 无线网卡和蓝牙设置
 * 如果是 Intel 无线网卡，可以不修改Kernel-add
-* 如果是 博通 无线网卡，在 Kernel-add 删除或者Enabled:false，带有intel字样的项目
+* 如果是 博通 无线网卡，在 Kernel-add 删除或者Enabled:false，带有intel字样的项目，同时开启4个带有 brcm 相关的选项驱动补丁
 
 ### 关于睡眠的问题
 * BIOS默认关闭了USB唤醒，睡眠后需按电源键唤醒
