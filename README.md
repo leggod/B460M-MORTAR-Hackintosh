@@ -1,6 +1,6 @@
 # Hackintosh-B460M-MORTAR
 最适合微星迫击炮B460m的EFI，没有之一。各项补丁、驱动、配置精心调教，深度优化。因为自用，长期更新。<br>
-欢迎新老朋友上车，使用愉快，enjoy~
+欢迎新老朋友上车，使用愉快，enjoy~，查看最下面的`使用角色`更容易上车哦
 
 ### 功能（完善度99%）
 - 支持睡眠/唤醒
@@ -119,3 +119,10 @@ Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsU
     - 理论支持所有10代CPU，如果无法使用，可以尝试删除`NVRAM`-`Add`-`7C436110-AB2A-4BBB-A880-FE41995C9F82`-`boot-args` 里面的参数
     - RX 5000 和 6000 系列，一定要`boot-args`中添加 `agdpmod=pikera`，否则黑屏（不是我说的，文档写的）
 - 非AMD显卡，即仅核显同学，请删掉`config.plist`-`Kernel`-`Add`-`RadeonSensor.kext`和`SMCRadeonGPU.kext` 这两项
+
+## 使用角色
+- 迫击炮b460m + Intel 10代CPU + AMD 5000~6000 系显卡 + Intel 无线网卡与蓝牙，不需要动任何配置可直接使用
+- 迫击炮b460m + Intal 10代CPU + AMD 5000~6000 系显卡 + BCM 无线网卡与蓝牙（非白卡），删 `Kernel`-`add` 中 所有相关Intel选项的项目，同时勾选Brcm相关选项的 Enabled = true
+- 迫击炮b460m + Intal 10代CPU + AMD 5000~6000 系显卡 + BCM 白卡，删 `Kernel`-`add` 中 所有相关Intel选项的项目或者Enabled = false
+- 迫击炮b460m + Intal 10代CPU + 核显，删完`NVRAM`-`Add`-`7C436110-AB2A-4BBB-A880-FE41995C9F82`-`boot-args`里的参数
+
