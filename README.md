@@ -121,8 +121,8 @@ Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsU
 - 非AMD显卡，即仅核显同学，请删掉`config.plist`-`Kernel`-`Add`-`RadeonSensor.kext`和`SMCRadeonGPU.kext` 这两项
 
 ## <a id="use">使用角色</a>
-- 迫击炮b460m + Intel 10代CPU + AMD 5000~6000 系显卡 + Intel 无线网卡与蓝牙，不需要动任何配置可直接使用
-- 迫击炮b460m + Intal 10代CPU + AMD 5000~6000 系显卡 + BCM 无线网卡与蓝牙（非白卡），删 `Kernel`-`add` 中 所有相关Intel选项的项目，同时勾选Brcm相关选项的 Enabled = true
-- 迫击炮b460m + Intal 10代CPU + AMD 5000~6000 系显卡 + BCM 白卡，删 `Kernel`-`add` 中 所有相关Intel选项的项目或者Enabled = false
-- 迫击炮b460m + Intal 10代CPU + 核显，删完`NVRAM`-`Add`-`7C436110-AB2A-4BBB-A880-FE41995C9F82`-`boot-args`里的参数
+- [迫击炮b460m] + [Intel 10代CPU] + [AMD 5000~6000 系显卡] + [Intel 无线网卡与蓝牙]，不需要动任何配置可直接使用
+- [迫击炮b460m] + [Intal 10代CPU] + [AMD 5000~6000 系显卡] + [BCM 无线网卡与蓝牙（非白卡）]，删 `Kernel`-`add` 中 所有相关Intel选项的项目，同时勾选Brcm相关选项的 Enabled = true
+- [迫击炮b460m] + [Intal 10代CPU] + [AMD 5000~6000 系显卡] + [BCM 白卡]，删 `Kernel`-`add` 中 所有相关Intel选项的项目或者Enabled = false
+- [迫击炮b460m] + [Intal 10代CPU] + [核显]，删完`NVRAM`-`Add`-`7C436110-AB2A-4BBB-A880-FE41995C9F82`-`boot-args`里的参数
 
