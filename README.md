@@ -130,7 +130,7 @@ Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsU
 
 ## 进阶指南
 - 这是一条不归路，喜欢折腾的可以一直探索
-- 系统版本越高意味着有些功能的bug越多，比如蓝牙wifi
+- 系统版本越高意味着有些功能的bug越多，比如蓝牙wifi，推荐白卡可以避开很过问题
 - OC的作者更新非常频繁，可能上个版本能用的config.plist，下个版本就挂了，因为其中的字段变了
 - 如果需要稳定版，切记功能越少越稳定，比如下载到手把蓝牙WiFi全删了，或禁用
 - 如果出现问题，把核心功能放出来，其他删了或禁用
