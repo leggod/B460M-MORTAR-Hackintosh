@@ -1,6 +1,6 @@
 # Hackintosh-B460M-MORTAR
 最适合微星迫击炮B460m的EFI，没有之一。各项补丁、驱动、配置精心调教，深度优化。因为自用，长期更新。<br>
-欢迎新老朋友上车，使用愉快，enjoy~，查看最下面的<a href="#use">使用角色</a>更容易上车哦
+欢迎新老朋友上车，使用愉快，enjoy~，查看最下面的<a href="#use">使用角色</a>更容易上车哦，切记要把整个readme看完~
 
 ### 功能（完善度99%）
 - 支持睡眠/唤醒
@@ -34,8 +34,9 @@
 - 理论支持所有10代CPU
 
 ### 显卡支持
-- 支持仅有CPU核显的UHD630显卡
-- 支持AMD独显 RX 470/480/570/570X/580/580X/590 系列显卡(需使用config_default.plist)
+- 支持仅有核显的UHD630显卡
+- 支持 5000~6000 系显卡，且不需要改动设置
+- 5000 系列以下的显卡，或许需要自行探索一番
 - 支持AMD独显 RX 5500/5600/5700 系列显卡(需使用config.plist)
 > PS: 使用独显的需在BIOS里强制打开CPU核显（高级 -> 内建显示配置 -> 集成显卡多显示器(IGD Multi-monitor) -> 允许），否则核显硬件解码失效，只使用核显的可以忽略
 
@@ -126,3 +127,9 @@ Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsU
 - [迫击炮b460m] + [Intal 10代CPU] + [AMD 5000~6000 系显卡] + [BCM 白卡]，删 `Kernel`-`add` 中 所有相关Intel选项的项目或者Enabled = false
 - [迫击炮b460m] + [Intal 10代CPU] + [核显]，删完`NVRAM`-`Add`-`7C436110-AB2A-4BBB-A880-FE41995C9F82`-`boot-args`里的参数
 
+## 进阶指南
+- 这是一条不归路，喜欢折腾的可以一直探索
+- 系统版本越高意味着有些功能的bug越多，比如蓝牙wifi
+- OC的作者更新非常频繁，可能上个版本能用的config.plist，下个版本就挂了，因为其中的字段变了
+- 如果需要稳定版，切记功能越少越稳定，比如下载到手把蓝牙WiFi全删了，或禁用
+- 如果出现问题，把核心功能放出来，其他删了或禁用
