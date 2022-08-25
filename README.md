@@ -123,10 +123,10 @@ Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsU
 - macOS 12.x 的高版本蓝牙WiFi并不稳定，可能会造成重启，非刚需建议禁用，推荐白卡吧，比如t919。
 
 ## <a id="use">使用角色</a>
-- $\color{red} {[迫击炮b460m]}  + \color{blue} {[Intel 10代CPU]} + [AMD 5000~6000 系显卡] + [Intel 无线网卡与蓝牙]$，不需要动任何配置可直接使用
-- [迫击炮b460m] + [Intal 10代CPU] + [AMD 5000~6000 系显卡] + [BCM 无线网卡与蓝牙（非白卡）]，删 `Kernel`-`add` 中 所有相关Intel选项的项目，同时勾选Brcm相关选项的 Enabled = true
-- [迫击炮b460m] + [Intal 10代CPU] + [AMD 5000~6000 系显卡] + [BCM 白卡]，删 `Kernel`-`add` 中 所有相关Intel选项的项目或者Enabled = false
-- [迫击炮b460m] + [Intal 10代CPU] + [核显]，删完`NVRAM`-`Add`-`7C436110-AB2A-4BBB-A880-FE41995C9F82`-`boot-args`里的参数
+- $\color{red} {[迫击炮b460m]}  + \color{blue} {[Intel 10代CPU]} + \color{orange}{[AMD 5000~6000 系显卡]} + \color{pink}{[Intel 无线网卡与蓝牙]}$，不需要动任何配置可直接使用
+- $\color{red} {[迫击炮b460m]} +  \color{blue} {[Intel 10代CPU]} + \color{orange}{[AMD 5000~6000 系显卡]} + \color{pink}{[BCM 无线网卡与蓝牙（非白卡）]}$，删 `Kernel`-`add` 中 所有相关Intel选项的项目，同时勾选Brcm相关选项的 Enabled = true
+- $\color{red} {[迫击炮b460m]} +  \color{blue} {[Intel 10代CPU]} + \color{orange}{[AMD 5000~6000 系显卡]} + \color{pink}{[BCM 白卡]}$，删 `Kernel`-`add` 中 所有相关Intel选项的项目或者Enabled = false
+- $\color{red} {[迫击炮b460m]} +  \color{blue} {[Intel 10代CPU]} + \color{orange}{[核显]}$，删完`NVRAM`-`Add`-`7C436110-AB2A-4BBB-A880-FE41995C9F82`-`boot-args`里的参数
 
 ## 进阶指南
 - 这是一条不归路，喜欢折腾的可以一直探索
