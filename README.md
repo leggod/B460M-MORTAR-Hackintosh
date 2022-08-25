@@ -113,13 +113,14 @@ Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsU
 ### 设置默认启动项
 * 在启动选择界面，先选中要启动的项，然后按键盘的 Ctrl + Enter (回车键) 进入系统，下次重启后默认就选中该项了
 
-### 其他问题
+### 所知问题（持续更新中）
 - 安装
     - 推荐使用黑果小兵的clover 或者 oc 安装
 - efi问题
     - 理论支持所有10代CPU，如果无法使用，可以尝试删除`NVRAM`-`Add`-`7C436110-AB2A-4BBB-A880-FE41995C9F82`-`boot-args` 里面的参数
     - RX 5000 和 6000 系列，一定要`boot-args`中添加 `agdpmod=pikera`，否则黑屏（不是我说的，文档写的）
 - 非AMD显卡，即仅核显同学，请删掉`config.plist`-`Kernel`-`Add`-`RadeonSensor.kext`和`SMCRadeonGPU.kext` 这两项
+- macOS 12.x 的高版本蓝牙WiFi并不稳定，可能会造成重启，非刚需建议禁用，推荐白卡吧。
 
 ## <a id="use">使用角色</a>
 - [迫击炮b460m] + [Intel 10代CPU] + [AMD 5000~6000 系显卡] + [Intel 无线网卡与蓝牙]，不需要动任何配置可直接使用
