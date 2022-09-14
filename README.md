@@ -8,7 +8,7 @@
 - 核显硬件加速
 - 板载声卡
 - 板载网卡
-- Intel无线网卡+蓝牙
+- Intel无线网卡+蓝牙，且支持接力
 - 炫酷的MSI dragon 主题
 - 各种CPU、GPU传感器齐全
 - 一键重置nvram (空格）
@@ -21,6 +21,9 @@
 ![image](./image/img1.png)
 <br>![image](./image/img2.png)
 <br>![image](./image/image.png)
+<br>![image](./image/WeChat045e3e93ee4109efc663ca926c4e653c.png)
+<br>![image](./image/WeChat8fd4b734aaef4213afad2a11a8aca56e.png)
+<br>![image](./image/WeChat67f3376ebd896d2bbb6f5e4d4bbe937e.png)
 |  配置   | 型号  |
 |  ----  | ----  |
 | 系统 | macos12.5和win11|
