@@ -132,8 +132,5 @@ Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsU
 - $\color{red} {[迫击炮b460m]} +  \color{blue} {[Intel 10代CPU]} + \color{orange}{[核显]}$，删完`NVRAM`-`Add`-`7C436110-AB2A-4BBB-A880-FE41995C9F82`-`boot-args`里的参数
 - $\color{red} {[迫击炮b460m]} +  \color{blue} {[Intel 10代CPU]} + \color{orange}{[不带核显]}$，删 `DeviceProperties`-`add`-`PciRoot(0x0)/Pci(0x2,0x0)`-`AAPL,ig-platform-id`
 ## 进阶指南
-- 这是一条不归路，喜欢折腾的可以一直探索
-- 系统版本越高意味着有些功能的bug越多，比如蓝牙wifi，推荐白卡可以避开很过问题
+- 白卡可以解决很多问题，实现完美。
 - OC的作者更新非常频繁，可能上个版本能用的config.plist，下个版本就挂了，因为其中的字段变了
-- 如果需要稳定版，切记功能越少越稳定，比如下载到手把蓝牙WiFi全删了，或禁用
-- 如果出现问题，把核心功能放出来，其他删了或禁用
