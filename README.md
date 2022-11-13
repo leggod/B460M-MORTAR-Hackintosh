@@ -1,4 +1,4 @@
-# 亲测可用0.8.4.2 完美升级 13.0.1
+# [亲测可用0.8.4.2 完美升级 13.0.1](https://github.com/leggod/Hackintosh-B460M-MORTAR/issues/7)
 # Hackintosh-B460M-MORTAR
 最适合微星迫击炮B460m的EFI，没有之一。各项补丁、驱动、配置精心调教，深度优化。因为自用，长期更新。<br>
 欢迎新老朋友上车，使用愉快，enjoy~，查看最下面的<a href="#use">使用角色</a>更容易上车哦，切记要把整个readme看完~
