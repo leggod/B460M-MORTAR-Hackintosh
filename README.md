@@ -1,3 +1,4 @@
+# 亲测可用0.8.4.2 完美升级 13.0.1
 # Hackintosh-B460M-MORTAR
 最适合微星迫击炮B460m的EFI，没有之一。各项补丁、驱动、配置精心调教，深度优化。因为自用，长期更新。<br>
 欢迎新老朋友上车，使用愉快，enjoy~，查看最下面的<a href="#use">使用角色</a>更容易上车哦，切记要把整个readme看完~
@@ -18,6 +19,8 @@
 [下载链接](https://github.com/leggod/Hackintosh-B460M-MORTAR/releases)，替换`EFI`-`Boot` 下的文件，和`EFI`下添加`OC`文件夹
 
 ### 硬件配置
+![image](https://user-images.githubusercontent.com/20152324/201505113-77ce05b7-3e8f-4f99-8153-778ef88c6b0c.png)
+<br>
 ![image](./image/img1.png)
 <br>![image](./image/img2.png)
 <br>![image](./image/image.png)
@@ -26,7 +29,7 @@
 <br>![image](./image/WeChat67f3376ebd896d2bbb6f5e4d4bbe937e.png)
 |  配置   | 型号  |
 |  ----  | ----  |
-| 系统 | macos12.5和win11|
+| 系统 | macos13.0.1和win11|
 | CPU  | I5-10400 |
 | 主板  | B460M 迫击炮 |
 | 显卡 | XFX RX5500xt免驱|
