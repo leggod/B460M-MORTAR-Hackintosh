@@ -21,6 +21,8 @@
 ### 硬件配置
 ![image](https://user-images.githubusercontent.com/20152324/201505113-77ce05b7-3e8f-4f99-8153-778ef88c6b0c.png)
 <br>
+![image](https://user-images.githubusercontent.com/20152324/201656656-075f54e9-ab61-4aa0-b60a-20cd20a13cce.png)
+
 ![image](./image/img1.png)
 <br>![image](./image/img2.png)
 <br>![image](./image/image.png)
