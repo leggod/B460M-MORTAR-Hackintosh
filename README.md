@@ -1,4 +1,3 @@
-# 因个人工作需要，已退回macOS12，efi 0.8.4.2体验非常好，以后有机会江湖再见
 # [亲测可用0.8.4.2 完美升级 13.0.1](https://github.com/leggod/Hackintosh-B460M-MORTAR/issues/7)
 # Hackintosh-B460M-MORTAR
 最适合微星迫击炮B460m的EFI，没有之一。各项补丁、驱动、配置精心调教，深度优化。因为自用，长期更新。<br>
