@@ -22,7 +22,7 @@
 [下载链接](https://github.com/leggod/Hackintosh-B460M-MORTAR/releases)，替换`EFI`-`Boot` 下的文件，和`EFI`下添加`OC`文件夹
 
 ### 硬件配置
-![image](https://user-images.githubusercontent.com/20152324/201505113-77ce05b7-3e8f-4f99-8153-778ef88c6b0c.png)
+![image](https://user-images.githubusercontent.com/20152324/225014430-998e1fc1-b4eb-49c1-b05b-597f067ea39e.png)
 <br>
 ![image](https://user-images.githubusercontent.com/20152324/201656656-075f54e9-ab61-4aa0-b60a-20cd20a13cce.png)
 
