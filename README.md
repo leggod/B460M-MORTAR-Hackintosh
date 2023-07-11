@@ -33,8 +33,8 @@
 <br>![image](./image/WeChat67f3376ebd896d2bbb6f5e4d4bbe937e.png)
 |  配置   | 型号  |
 |  ----  | ----  |
-| 系统 | macos13.0.1和win11|
-| CPU  | I5-10400 |
+| 系统 | macos13.3.1和win11|
+| CPU  | I5-10400,已升级10700 |
 | 主板  | B460M 迫击炮 |
 | 显卡 | XFX RX5500xt免驱|
 | SSD | 西数sn720 和 美光p5|
