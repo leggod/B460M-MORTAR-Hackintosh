@@ -1,6 +1,5 @@
 # 已更新0.9.3 OC(2023-07-12)
 
-# 最近停更，实在太忙了，efi没能完成月更，如果你能稳定使用，除非大版本号更新，否则不会获得任何buff加成(性能不会有任何改变)。建议更多的时间放在去享受生活上~
 
 # [亲测可用0.8.4.2 完美升级 13.0.1](https://github.com/leggod/Hackintosh-B460M-MORTAR/issues/7)
 # Hackintosh-B460M-MORTAR
