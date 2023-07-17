@@ -25,7 +25,8 @@
 ![image](https://github.com/leggod/B460M-MORTAR-Hackintosh/assets/20152324/96f3a4b2-debe-4609-b528-b61320ff0e73)
 
 <br>
-![image](https://user-images.githubusercontent.com/20152324/201656656-075f54e9-ab61-4aa0-b60a-20cd20a13cce.png)
+![image](https://github.com/leggod/B460M-MORTAR-Hackintosh/assets/20152324/aa36fd28-5964-448a-9f86-e95d778d9c00)
+
 
 <br>![image](./image/img2.png)
 <br>![image](./image/image.png)
