@@ -1,3 +1,5 @@
+# ⚠️警告：：： 23年的BIOS 版本请勿使用该efi，无论是安装还是使用，该efi现有所有版本只适合22年及以下BIOS的版本使用
+
 # 已更新[0.9.3](https://github.com/leggod/Hackintosh-B460M-MORTAR/releases/tag/0.9.3) OC(2023-07-12)
 
 
