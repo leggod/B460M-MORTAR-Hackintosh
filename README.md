@@ -1,9 +1,8 @@
 # ⚠️警告：：： 23年的 BIOS 版本，无论是安装还是使用，请勿使用该efi，该efi现有所有版本只适合22年及以下BIOS的版本使用（如果你不是最新BIOS 也不用升级到23版，没有任何性能提升）
+### 可用0.8.4.2 完美升级 MacOS 14 ](https://github.com/leggod/Hackintosh-B460M-MORTAR/issues/7)
+### 已更新[0.9.3](https://github.com/leggod/Hackintosh-B460M-MORTAR/releases/tag/0.9.3) OC(2023-07-12)
 
-# 已更新[0.9.3](https://github.com/leggod/Hackintosh-B460M-MORTAR/releases/tag/0.9.3) OC(2023-07-12)
-
-
-# [亲测可用0.8.4.2 完美升级 13.0.1](https://github.com/leggod/Hackintosh-B460M-MORTAR/issues/7)
+### [亲测可用0.8.4.2 完美升级 13.0.1](https://github.com/leggod/Hackintosh-B460M-MORTAR/issues/7)
 # Hackintosh-B460M-MORTAR
 最适合微星迫击炮B460m的EFI，没有之一。各项补丁、驱动、配置精心调教，深度优化。因为自用，长期更新。<br>
 欢迎新老朋友上车，使用愉快，enjoy~，查看最下面的<a href="#use">使用角色</a>更容易上车哦，切记要把整个readme看完~
