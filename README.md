@@ -1,4 +1,6 @@
 # ⚠️警告：：： 23年的 BIOS 版本，无论是安装还是使用，请勿使用该efi，该efi现有所有版本只适合22年及以下BIOS的版本使用（如果你不是最新BIOS 也不用升级到23版，没有任何性能提升）
+***
+### 亲自升级到了14.4
 ### [可用0.9.3 完美升级 MacOS 14 ](https://github.com/leggod/Hackintosh-B460M-MORTAR/issues/21),如果有WiFi需求，记得替换WiFi驱动
 ***
 ### 已更新[0.9.3](https://github.com/leggod/Hackintosh-B460M-MORTAR/releases/tag/0.9.3) OC(2023-07-12)
